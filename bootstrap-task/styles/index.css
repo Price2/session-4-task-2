@@ -1,0 +1,189 @@
+*, *::before, *::after{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #fafafa;
+    padding-top: 150px;
+}
+
+p,h1,h2,h3,h4,h5,h6{
+    color: gray;
+}
+
+.custom-li-style {
+    font-size: 36px;
+}
+.custom-span-style {
+    font-size: 16px;
+}
+
+.custom-about-me-li-style{
+    margin: 0px 6px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 4px 0px;
+    display: inline-block;
+}
+
+.about-me-span-style{
+    padding: 4px 15px;
+    border: 1px solid #51dcc7;
+}
+img{
+    width:100%;
+}
+
+.intro-img > img{
+    width: 50%;
+    border-radius: 50%;
+    border: 20px solid #d8d8d8;
+    outline-style: solid;
+    outline-color: rgba(239,239,239,255);
+    outline-width: 20px;
+}
+
+.nav-item{
+    font-size: 20px;
+}
+
+.nav-item:hover {
+    border-bottom: 1px solid black ;
+}
+
+.nav-item.portfolio-nav-item:hover {
+    border-bottom: 3px solid #69dfcf ;
+}
+
+.download-cv-btn > h5{
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #51dcc7;
+    border-radius: 40px 40px 40px 0px;
+}
+
+.theme-btn{
+    background-color: #51dcc7;
+    border-radius: 40px 40px 40px 40px;
+}
+
+.pricing-table-card-text{
+    background-color: #51dcc7;
+    border-radius: 40px 40px 40px 40px;
+}
+
+.hello-text{
+    font-size: 16px;
+    background-color: #51dcc7;
+    border-radius: 40px 40px 40px 0px;
+    padding: 10px 30px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.theme-color, .highlighted{
+    color:#51dcc5;
+}
+.intro-content-container,.about-me, 
+.what-I-do,.technical-skills-section,.experience-section,
+.portfolio-section, .pricing-table-section, 
+.featured-posts, .client-reviews{
+    margin-bottom: 350px;
+}
+
+.border-primary{
+    border-color: #6de2cd !important;
+    padding: 8px 15px;
+}
+
+.custom-circular-border{
+    border-radius: 50%;
+    width: 50%;
+    border: 5px solid #6de2cd;
+}
+.prog-bar-row{
+    margin-top:100px;
+}
+
+.progress-bar{
+    background-color: #22d4b8;
+}
+
+.progress-bar.circular {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: 
+      radial-gradient(closest-side, white 90%, transparent 85% 100%),
+      conic-gradient(#22d4b8 95%, #606060 0);    
+  }
+  
+.progress-bar.circular::before {
+    color:#606060;
+    font-weight: bold;
+    content: "95%";
+}
+
+.progress-bar.circular-team{
+    background: 
+    radial-gradient(closest-side, white 90%, transparent 85% 100%),
+    conic-gradient(#22d4b8 55%, #606060 0);    
+}
+
+.progress-bar.circular-team::before{
+    content: "55%";
+}
+
+.progress-bar.circular-project-management{
+    background: 
+    radial-gradient(closest-side, white 90%, transparent 85% 100%),
+    conic-gradient(#22d4b8 86%, #606060 0);    
+}
+
+.progress-bar.circular-project-management::before{
+    content: "86%";
+}
+
+.progress-bar.circular-creativity{
+    background: 
+    radial-gradient(closest-side, white 90%, transparent 85% 100%),
+    conic-gradient(#22d4b8 60%, #606060 0);    
+}
+
+.progress-bar.circular-creativity::before{
+    content: "60%";
+}
+
+.contact-me{
+    background-image: url("../images/map-color-overlay.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-position: center center;
+}
+
+.tech-skills-prog-row{
+    margin-bottom: 100px;
+}
+
+@media only screen and (min-width: 500px) and (max-width: 717px){
+   .professional-skills-padding{
+    padding: 0px 200px;
+   }
+
+}
+
+@media only screen and (min-width: 718px) and (max-width: 992px){
+    .professional-skills-padding{
+     padding: 0px 350px;
+    }
+ 
+ }
+
+ @media only screen and (min-width: 993px){
+    .professional-skills-padding{
+     padding: 0px 350px;
+    }
+ 
+ }
